@@ -34,8 +34,25 @@
     background-color: white;
     
   }
-  .card{
-    align-content: flex-start;
+  
+}
+.card{
+  margin: 0;
+  padding: 0;
+  color:
+  rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: 'tnum';
+  font-feature-settings: 'tnum';
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 
-  }
+
 }
